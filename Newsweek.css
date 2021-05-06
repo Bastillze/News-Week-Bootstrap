@@ -3,31 +3,67 @@
 
  z-index: 10;
  position: relative;
-}
-
-.page-header date{
-
- margin-left: 20px;
+ height: 100px;
+ background-color: #f72310;
 
 }
 
+.page-header .header-top date {
 
-.header-top .flex-xs {
+margin-left: 20px;
+color: white;
+}
 
-background-color: red;
+
+.page-header .pelcro-login-button{
+
+font-size: 18px;
+line-height: 30px;
+padding-left: 15px;
+padding-right: 15px;
+margin-top: 4px;
+margin-bottom: 4px;
+
+background-color:#f72310;
+color: white;
+
+}
+
+
+.pelcro-subscribe-button{
+
+background-color: #ffe400;
+color: black;
+display: flex;
+align-items: center;
 
 
 }
+
+.newsWeek{
+
+position: absolute;
+z-index: 3;
+top: 0;
+left: 38%;
+padding: 5px;
+
+}
+
 
 .flex-xs{
 
 display: flex;
+padding-top: 10px;
+
 
 }
 
 .flex-xs-6{
 
-
 width: 50%;
-
+padding-top: 15px;
+justify-content: flex-end;
 }
+
+

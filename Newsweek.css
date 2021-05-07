@@ -51,6 +51,34 @@ padding: 5px;
 }
 
 
+.header-bottom{
+
+padding-top: 45px;
+padding-bottom: 15px;
+border-bottom-width: 2px;
+border-bottom-style: solid;
+z-index: 1;
+
+
+
+}
+
+
+ul.page-nav{
+
+display: flex;   
+font-size: 19px;
+line-height: 24px;
+list-style: none;
+text-decoration: none;
+font-weight: bold;
+font-family: "Roboto Condensed", sans-serif;
+
+
+}
+
+
+
 .flex-xs{
 
 display: flex;
@@ -67,3 +95,41 @@ justify-content: flex-end;
 }
 
 
+
+
+
+
+@media screen and (min-width:992px){
+
+.page-header .header-bottom{
+
+ padding-right: 160px;
+
+}
+
+.header-bottom{
+
+position: relative;
+display: block;
+
+}
+
+ul.page-nav li{
+
+flex-grow: 1;
+text-align: center;
+border-left-style: solid;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+}

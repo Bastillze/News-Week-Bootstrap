@@ -1,4 +1,16 @@
 
+li{
+
+list-style: none;
+flex: none;
+text-align: center;
+padding: 0 0 0 30px;
+
+}
+
+
+
+
 .page-header{
 
  z-index: 10;
@@ -77,6 +89,44 @@ font-family: "Roboto Condensed", sans-serif;
 
 }
 
+.main{
+
+background-color: white;
+padding-top: 20px;
+
+}
+
+
+.row{
+
+margin-left: -15px;
+margin-right: -15px;
+
+}
+
+.colwrap .col14{
+
+float: left;
+padding-left: 15px;
+padding-right: 15px;
+
+}
+
+.col3{
+
+float: left;
+padding-left: 15px;
+padding-right: 15px;
+
+
+}
+
+.flex-box{
+
+display: flex;
+
+}
+
 
 
 .flex-xs{
@@ -118,7 +168,7 @@ ul.page-nav li{
 
 flex-grow: 1;
 text-align: center;
-border-left-style: solid;
+border-left-style: none;
 
 
 
@@ -126,10 +176,63 @@ border-left-style: solid;
 
 
 
+.trendingTopics{
+
+border-top-color: white;
+padding-top: 13px;
+border-top-width: 2px;
+overflow-x: scroll;
+overflow-y: hidden;
+margin-right: -160px;
+margin-bottom: -10px;
+position: relative;
+
+}
+
+
+.trendingTopicList{
+
+display: flex;
+font-weight: bold;
+font-size: 16px;
+line-height: 16px;
+text-transform: upercase;
+text-align: center;
 
 
 
+}
 
+
+.container-fluid{
+
+padding-left: 30px;
+padding-right: 30px;
+margin-right: auto;
+margin-left: auto;
+
+
+}
+
+
+.colwrap .col14{
+
+width: 71%;
+
+
+}
+
+.colw13{
+
+width: 29%;
+
+}
+
+.flex-box{
+
+flex-direction: column;
+
+}
 
 
 }

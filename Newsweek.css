@@ -8,6 +8,17 @@ padding: 0 0 0 30px;
 
 }
 
+h3{
+
+font-size: 24px;
+line-height: 24px;
+
+}
+
+
+
+
+
 
 
 
@@ -89,12 +100,48 @@ font-family: "Roboto Condensed", sans-serif;
 
 }
 
+
+.flex-box{
+
+display: flex;
+    
+}
+    
+.flex-block2{
+    
+display: flex;
+    
+}
+    
+.flex-xs{
+    
+display: flex;
+padding-top: 10px;
+    
+    }
+    
+.flex-xs-6{
+    
+width: 50%;
+padding-top: 15px;
+justify-content: flex-end;
+}
+
+
+
 .main{
 
 background-color: white;
 padding-top: 20px;
 
 }
+
+#sticky4{
+
+position: sticky;
+
+}
+
 
 
 .row{
@@ -109,6 +156,7 @@ margin-right: -15px;
 float: left;
 padding-left: 15px;
 padding-right: 15px;
+margin-top: 200px;
 
 }
 
@@ -121,31 +169,105 @@ padding-right: 15px;
 
 }
 
-.flex-box{
 
-display: flex;
+.col1{
+
+float: left;
+padding-left: 15px;
+padding-right: 15px;
+
+}
+
+
+#sticky1{
+
+position: sticky;
+top: 60px;
+
+
+}
+
+
+.block-title{
+
+font: bold 16px "Roboto Condensed", sans-serif;
+text-transform: uppercase;
+padding-bottom: 11px;
+
+
+}
+
+
+.feature{
+
+padding-bottom: 20px;
 
 }
 
 
 
-.flex-xs{
+.wrap{
 
-display: flex;
-padding-top: 10px;
+position: relative;
+min-height: 33px;
+margin-bottom: 10px;
 
 
 }
 
-.flex-xs-6{
 
-width: 50%;
-padding-top: 15px;
-justify-content: flex-end;
+
+.related{
+
+font-size: 17px;
+line-height: 20px;
+margin-top: 10px;
+
 }
 
 
 
+.col2{
+
+float: left;
+padding-left: 15px;
+padding-right: 15px;
+
+
+
+}
+
+#sticky2{
+
+position: sticky;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+
+.flex-block2{
+
+flex-direction: row;
+
+}
+
+.col1{
+
+width: 45%;
+
+}
+
+
+
+
+}
 
 
 
@@ -225,6 +347,21 @@ width: 71%;
 .col3{
 
 width: 29%;
+
+}
+
+
+.col1{
+
+width: 41%;
+
+}
+
+.col2{
+
+width: 59%;
+
+
 
 }
 

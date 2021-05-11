@@ -1,4 +1,19 @@
 
+*{
+
+box-sizing: border-box;
+border: 0 none;
+list-style: none outside none;
+margin: 0;
+outline: 0 none;
+padding: 0;
+
+}
+
+
+
+
+
 li{
 
 list-style: none;
@@ -219,6 +234,8 @@ margin-bottom: 10px;
 
 .related{
 
+font: bold 20px "Roboto Condensed" , sans-serif;
+color: black;   
 font-size: 17px;
 line-height: 20px;
 margin-top: 10px;

@@ -200,6 +200,7 @@ position: sticky;
 top: 60px;
 
 
+
 }
 
 
@@ -261,9 +262,44 @@ position: sticky;
 }
 
 
+.fd-c{
+
+flex-direction: column;
 
 
+}
 
+.cultureStories{
+
+padding: 10px 0;
+
+
+}
+
+
+.culture-items{
+
+margin-left: -10px;
+margin-right: -10px;
+
+
+}
+
+
+.culture-item{
+
+padding-left: 10px;
+padding-right: 10px;
+
+
+}
+
+.culture-item .info{
+
+padding: 15px 0 20px;
+
+
+}
 
 
 
@@ -281,7 +317,12 @@ width: 45%;
 
 }
 
+.flex-sm{
 
+display:flex;
+
+
+}
 
 
 }

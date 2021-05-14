@@ -166,26 +166,27 @@ margin-right: -15px;
 
 }
 
+
+
+.colwrap{
+
+margin-top: 200px;
+
+
+}
+
 .colwrap .col4{
 
 float: left;
 padding-left: 15px;
 padding-right: 15px;
-margin-top: 200px;
-
-}
-
-.col3{
-
-float: left;
-padding-left: 15px;
-padding-right: 15px;
-
 
 }
 
 
-.col1{
+
+
+.colwrap .col1{
 
 float: left;
 padding-left: 15px;
@@ -245,7 +246,7 @@ margin-top: 10px;
 
 
 
-.col2{
+.colwrap .col2{
 
 float: left;
 padding-left: 15px;
@@ -268,6 +269,11 @@ flex-direction: column;
 
 
 }
+
+
+
+
+
 
 .cultureStories{
 
@@ -303,6 +309,84 @@ padding: 15px 0 20px;
 
 
 
+.colwrap .col3{
+
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    
+    }
+
+
+#sticky3{
+
+position: sticky;
+top: 60px;
+
+}
+
+
+.subfeature{
+
+font: bold 17px "Roboto Condensed", sans-serif;
+color: black;
+margin-bottom: 30px;
+
+
+}
+
+.debate-item .c-r{
+
+border-top: 4px solid;
+padding-top: 10px;
+padding-bottom: 4px;
+
+}
+
+
+.ai-c{
+
+align-items: center;
+
+}
+
+
+.headshot{
+
+border-radius: 50%;
+width: 63px;
+height: 63px;
+
+
+
+}
+
+
+.order-2{
+
+
+order: 2;
+
+
+}
+
+
+.byline{
+
+font-size: 14px;
+line-height: 21px;
+color: grey;
+text-transform: uppercase;
+margin-top: 4px;
+
+}
+
+
+
+
+
+
 @media screen and (min-width: 768px){
 
 .flex-block2{
@@ -323,6 +407,13 @@ display:flex;
 
 
 }
+
+.culture-item{
+
+flex: 1;
+
+}
+
 
 
 }
@@ -402,11 +493,7 @@ width: 71%;
 
 }
 
-.col3{
 
-width: 29%;
-
-}
 
 
 .col1{
@@ -420,8 +507,15 @@ width: 41%;
 width: 59%;
 
 
-
 }
+
+.colwrap .col3{
+
+    width: 29%;
+    
+    }
+
+
 
 .flex-box{
 

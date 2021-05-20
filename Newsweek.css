@@ -394,6 +394,48 @@ top: auto;
 }
 
 
+.magazine{
+
+ padding-top: 30px;
+
+}
+
+
+.jc-c{
+
+justify-content: center;
+
+
+}
+
+
+.icon-n{
+
+
+flex: none;
+display: block;
+width: 29px;
+height:28px;
+
+
+}
+
+
+#editors-Pick{
+
+
+margin-bottom: 20px;
+
+
+}
+
+
+.flex-wrap{
+
+flex-wrap: wrap;
+
+}
+
 
 
 
@@ -424,6 +466,55 @@ display:flex;
 flex: 1;
 
 }
+
+.n-title{
+
+font: bold 19px "Roboto Condensed", sans-serif;
+padding-bottom: 8px;
+border-bottom: 1px solid;
+margin-bottom: 15px;
+text-transform: uppercase;
+
+
+}
+
+.flex-sm-3{
+
+padding-left: 15px;
+padding-right:15px;
+width: 25%;
+
+
+}
+
+.flex-sm-9{
+
+padding-left: 15px;
+padding-right: 15px;
+width: 75%;
+
+
+}
+
+
+.bottom{
+
+padding-top: 30px;
+
+}
+
+
+
+.col-sm-6{
+
+width: 50%;
+
+
+
+}
+
+
+
 
 
 
@@ -533,6 +624,17 @@ width: 59%;
 flex-direction: column;
 
 }
+
+
+.col-md-3{
+
+width: 25%;
+
+
+
+}
+
+
 
 
 }

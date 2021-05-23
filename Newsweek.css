@@ -32,7 +32,11 @@ line-height: 24px;
 
 
 
+h4{
 
+font-size:large;
+
+}
 
 
 
@@ -261,6 +265,14 @@ padding-right: 15px;
 position: sticky;
 
 }
+
+
+.summary{
+
+text-align: right;
+
+}
+
 
 
 .sponsored .category{

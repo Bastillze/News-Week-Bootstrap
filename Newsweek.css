@@ -456,6 +456,35 @@ top: auto;
 }
 
 
+
+.magazine .category{
+
+font: bold 16px "Roboto Condensed", sans-serif;
+color: #f72210;
+text-transform: uppercase;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+.mag-cat{
+
+padding: 0 7px;
+background-color: #f72210;
+color: white;
+margin-right: 7px;
+
+
+}
+
+.cat{
+
+display: inline-block;
+
+
+}
+
+
 .jc-c{
 
 justify-content: center;

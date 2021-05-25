@@ -391,6 +391,33 @@ height: 63px;
 }
 
 
+
+.deco{
+
+
+position: relative;
+
+}
+
+
+.c-vs{
+
+position: relative;
+z-index: 1;
+width: 32px;
+height: 32px;
+background-color: #000;
+border-radius: 50%;
+font: bold 14px "Roboto Condensed", sans-serif;
+text-align: center;
+margin: 6px auto;
+
+
+
+}
+
+
+
 .order-2{
 
 
@@ -447,6 +474,15 @@ height:28px;
 
 
 }
+
+.col-sm-4{
+
+
+width: 33.33333333%
+
+
+}
+
 
 
 #editors-Pick{
